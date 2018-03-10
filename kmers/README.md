@@ -1,4 +1,4 @@
-#K-mer finder
+# K-mer finder
 
 The script allows to find k-mers in given .fasta file. 
 Class Kmers includes attributes ```sequence``` for sequence of k-mer, ```locus``` for list of its localizations, ```counter``` for number of this kmer in given string 
