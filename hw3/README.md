@@ -1,5 +1,7 @@
 # Kmer distribution analysis 
 
+## Description
+
 The *kmer_spectrum* script contains Kmer_spectrum class included methods 
 * ```analyse``` which opens fastq file, creates dictionary Kmer where keys are kmers with lenght k and quality more than q (in Phred scale) and values are number of kmers in reads;
 
@@ -11,12 +13,14 @@ The *kmer_spectrum* script contains Kmer_spectrum class included methods
 
 * ```border``` which calculates the border between true spectrum and sequencing noise.
 
-File **test_kmer.fastq** was analysed with kmer length = 15 with and without quality filter. 
+## Test
+
+File **test_kmer.fastq** was analysed with kmer length = 15 with and without quality filter (q = 20). 
 
 Parameter| with filter|without
 -------- | -----------|-------
-Coverage of k-mers| |112
-Genome size | |2157945
+Coverage of k-mers| 103|112
+Genome size | 2124544|2157945
 
 
 Plot with filter
