@@ -20,9 +20,13 @@ Genome size | |2157945
 
 
 Plot with filter
+
+
 ![a](https://github.com/PazhenkovaEA/bio_python/blob/master/hw3/filter.png)
 
 Plot without filter
+
+
 ![b](https://github.com/PazhenkovaEA/bio_python/blob/master/hw3/no%20filter.png)
 
 The red line shows the border between true spectrum and noise.
