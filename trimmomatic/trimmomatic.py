@@ -20,15 +20,16 @@ if __name__ == "__main__":
 handle = open(inpname + ".fastq")
 rec = [record for record in SeqIO.parse(handle, "fastq")]
 handle.close()
-
 final = []
 for key in rec:
     trimmed = key[headcrop:len(str(key.seq))-tailcrop]
     for k in range (len(str(trimmed.seq)) - window):
-        if sum(trimmed.letter_annotations["phred_quality"][k:k+window])/window < treshold:
-            final.append(trimmed[:k])
+        if sum(trimmed.letter_annotations["phred_quality"][k:k+window])/window > treshold:
+            k += 1
         else:
-            k +=1
+            trimmed = trimmed[:k]
+            continue
+    final.append(trimmed)
 
 output_handle = open(outname + ".fastq", "w")
 for seq in final:
