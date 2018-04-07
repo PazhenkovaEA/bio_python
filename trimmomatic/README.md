@@ -32,25 +32,22 @@ python3 trimmomatic.py -c 10 -t 10 -q 20 -s 10 -i test_classwork3 -o trimmed
 
 Per base sequence quality
 
-![before1] 
-(https://github.com/PazhenkovaEA/bio_python/blob/master/trimmomatic/fastqc/before1.png)
+
+![before1](https://github.com/PazhenkovaEA/bio_python/blob/master/trimmomatic/fastqc/before1.png)
 
 Per sequence quality score
 
-![before2]
-(https://github.com/PazhenkovaEA/bio_python/blob/master/trimmomatic/fastqc/before2.png)
+![before2](https://github.com/PazhenkovaEA/bio_python/blob/master/trimmomatic/fastqc/before2.png)
 
 **FastQC report after trimming**
 
 Per base sequence quality
 
-![after]
-(https://github.com/PazhenkovaEA/bio_python/blob/master/trimmomatic/fastqc/after1.png)
+![after](https://github.com/PazhenkovaEA/bio_python/blob/master/trimmomatic/fastqc/after1.png)
 
 Per sequence quality score
 
-![after1]
-(https://github.com/PazhenkovaEA/bio_python/blob/master/trimmomatic/fastqc/after.png)
+![after1](https://github.com/PazhenkovaEA/bio_python/blob/master/trimmomatic/fastqc/after.png)
 
 
 
