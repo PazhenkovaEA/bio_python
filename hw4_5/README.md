@@ -24,7 +24,7 @@ The script was tested on 1000 reads ([out1.fas](https://github.com/PazhenkovaEA/
 
 
 
-Then script was tested on reads obtained from genome of [spoiler](https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%80%D1%83%D1%81_%D0%B3%D0%B5%D0%BF%D0%B0%D1%82%D0%B8%D1%82%D0%B0_B) (hw_4_5_dataset.fasta).
+Then script was tested on reads obtained from genome of [warning! spoiler!](https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%80%D1%83%D1%81_%D0%B3%D0%B5%D0%BF%D0%B0%D1%82%D0%B8%D1%82%D0%B0_B) (hw_4_5_dataset.fasta).
 This is a graph after compression and tail-cutting.
 
 ![pain](https://github.com/PazhenkovaEA/bio_python/blob/master/hw4_5/test/hw4_5.png)
